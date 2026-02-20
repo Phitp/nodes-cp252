@@ -12,8 +12,8 @@
 <ul>
   <% notes.forEach((note) => { %>
     <li>
-      <strong><%= note.title %></strong>
-      <p><%= note.content %></p>
+      <strong>subject: <%= note.title %></strong>
+      <p>data: <%= note.content %></p>
       <table border="1">
         <tr><td>Tags: <%= note.tags %></td></tr>
         <tr><td>Category: <%= note.category %></td></tr>
@@ -37,6 +37,8 @@
     <br>
     <button type="submit">Add Note</button>
   </form>
+
+  <img src="/cssci.png" width="500" height="500">
 </body>
 </html>
 

@@ -1,4 +1,4 @@
-const categories = [];
+const categories = ['unknown'];
 
 const getCategories = (req, res) => {
   res.json({ categories });
