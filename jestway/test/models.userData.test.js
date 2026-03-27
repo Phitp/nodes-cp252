@@ -37,6 +37,7 @@ describe('remove 2 user', () => {
       testUserData.addUser("user", "email");
       testUserData.addUser("user", "email");
       testUserData.addUser("user", "email");
+      testUserData.addUser("user", "email");
       const userCountBefore = testUserData.getUserCount();
       testUserData.removeTwoUser();
       const userCountAfter = testUserData.getUserCount();
