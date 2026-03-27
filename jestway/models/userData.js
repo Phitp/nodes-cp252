@@ -27,10 +27,10 @@ class UserData {
         }       
     }
 
-    removeTwoUser() {
-        removeOneUser();
-        removeOneUser();
-    }
+    // removeTwoUser() {
+    //     removeOneUser();
+    //     removeOneUser();
+    // }
 
 
     // Method to clear all users
